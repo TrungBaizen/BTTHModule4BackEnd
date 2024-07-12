@@ -13,5 +13,4 @@ public interface PromotionService extends IService<Promotion>{
     List<Promotion> findByStartDateAndEndDate(LocalDate endDate, LocalDate startDate);
     List<Promotion> findByDiscountAndEndDate(Double discount, LocalDate endDate);
     List<Promotion> findByDiscountAndStartDateAndEndDate(Double discount, LocalDate startDate, LocalDate endDate);
-
 }
